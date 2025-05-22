@@ -23,6 +23,8 @@ class CalculatorServiceTest {
                 Arguments.of(new CalculatorDTO(3, 5)),
                 Arguments.of(new CalculatorDTO(10, -2))
         );
+
+
     }
 
     @DisplayName("두 수의 합 구하기 테스트")
